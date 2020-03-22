@@ -17,7 +17,7 @@ And now you're ready!
 
 
 ## NOTE
-TBiff utilizes *window.onload* to generate all the bindings. Depending on the order that you include your javascript sources, it may unintentionally break functionality. Because of this, it's recommended to define the template method **app()** in the global scope, and this will have the intended behavior.
+TBiff generates the JavaScript bindings from within *window.onload*. Depending on the order that you include your javascript sources, it may unintentionally break functionality. Because of this, it's recommended to define the template method **app()** in the global scope, and this will have the intended behavior.
 ```javascript
 function app(){
   // window.onload alternative
