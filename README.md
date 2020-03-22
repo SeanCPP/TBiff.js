@@ -24,7 +24,7 @@ function app(){
 }
 ```
 
-
+# Cut to the Chase
 For any HTML element with an *id*, a corresponding javascript object will be generated within the **window.** scope. This object will have the same name as the *id* of the element. (this could be arbitrarily changed or extended to support different attributes, I suppose.)
 
 Additionally, if your element is a **\<button>** (let's say the *id* is "btn1") a template method bttn1Clicked will become available to the **window.** scope.
