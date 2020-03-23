@@ -31,12 +31,11 @@ Additionally, if your element is a **\<button>** (let's say the *id* is "btn1") 
 
 # Example 1. Bindings Basics
 ```html
-<input type="text" id="nameInput"/>
 <p id="nameP"></p>
 ```
 ```javascript
 function app(){
-  nameP.innerHTML = nameInput.value;
+  nameP.innerHTML = "Hello World!";
 }
 ```
 It really is that simple!
