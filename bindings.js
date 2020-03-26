@@ -34,7 +34,7 @@ window.onload = () => {
                     if ( ${elementObj}Clicked ){
                         ${elementObj}Clicked();
                     }
-                }`;
+                };`;
                 break;
         }
     }
